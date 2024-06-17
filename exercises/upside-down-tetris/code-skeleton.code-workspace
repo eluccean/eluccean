@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "code-skeleton",
+			"path": "../../code-skeleton"
+		},
+		{
+			"name": "demos",
+			"path": "../../demos"
+		},
+		{
+			"name": "exercises",
+			"path": ".."
+		},
+		{
+			"name": "projects",
+			"path": "../../projects"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "upside-down-tetris"
+	}
+}

@@ -1,0 +1,17 @@
+img.small {
+    width:200px
+}
+
+img.stretch {
+    width:100%
+}
+
+div.outer-container {
+    border: 3px solid blue;
+    width: 50%;
+}
+ 
+div.inner-container img {
+    width: 50%;
+}
+
