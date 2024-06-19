@@ -9,20 +9,80 @@
 
 #license {
     width: 700px;
-    }
+    padding: 24px;
+    border: 3px solid black;
+    border-radius: 24px;
+}
+
+#left-side {
+    display: inline-block;
+    width: 65%;
+    color: navy;
+}
+
 #right-side {
     display: inline-block;
-    width: 34%
+    width: 34%;
+    color: navy;
 }
-#left-side{
-    display: inline-block;
-    width: 65;
-}
-#small-pic-container,
-#dadt-fields {
-    display: inline-block;
-}
-#small-pic-contaner img {
-width: 80%;
 
+#id-and-expiration div {
+    display: inline-block;
+    color: navy;
+}
+
+#small-pic-container,
+#data-fields {
+    display: inline-block;
+}
+
+#small-pic-container img {
+    width: 80px;
+}
+
+#data-left,
+#data-right {
+    display: inline-block;
+}
+
+#signature {
+    text-align: center;
+    font-family: cursive;
+    color: black;
+}
+
+#right-side img {
+    width: 100%;
+}
+
+#donor,
+#real-id {
+    display: inline-block;
+}
+
+#license h1 {
+    color: navy;
+}
+
+#left-side h4 {
+    background-color: navy;
+    color: white;
+    padding: 5px;
+
+}
+
+#id-and-expiration div span {
+    color: red;
+}
+
+#data-left span {
+    color: red;
+}
+
+#data-right span {
+    color: red;
+}
+
+#address {
+    color:black;
 }
