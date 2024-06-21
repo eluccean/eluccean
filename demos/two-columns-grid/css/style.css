@@ -8,8 +8,9 @@ body {
 
 #grid-layout {
     display: grid;
-    grid-template-columns: 1fr 250px;
-    grid-template-areas: "contentsidebar";
+    grid-template-columns: 1fr 450px 250px 1fr;
+    grid-template-areas: "content sidebar";
+    margin: 36px 0px;
 }
 #sidebar-content {
     grid-area: sidebar;
@@ -45,6 +46,10 @@ body {
 
 #sidebar-content li :last-child {
     border-bottom: 0px;
+}
+
+#main-content {
+    background-color: greenyellow;
 }
 
 
