@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#three-columns {
+    display: grid;
+    grid-template-columns: 1fr 400px 200px 200px 1fr;
+}
+
+body h1 {
+    text-align: center;
+    color: rgb(10, 135, 135);
+}
+
+#column-1 img {
+  margin-top: 24px;
+  margin-right: 24px;
+  margin-left: 24px;
+  width: 450px;
+}
+
+#column-2 p {
+    border-bottom: 1px solid gray;
+    
+}
+
+#column-2 h1 {
+    color: black;
+  
+    margin-top: 24px; 
+    
+}
