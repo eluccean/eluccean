@@ -14,17 +14,18 @@ body {
 body h1 {
     text-align: center;
     color: rgb(10, 135, 135);
+    border-bottom: 1px solid, color black;
 }
 
 #column-1 img {
   margin-top: 24px;
-  margin-right: 24px;
+  margin-right:12px;
   margin-left: 24px;
-  width: 450px;
+  width: 650px;
 }
 
 #column-2 p {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid;
     
 }
 
@@ -33,4 +34,30 @@ body h1 {
   
     margin-top: 24px; 
     
+}
+
+
+#column-3 p {
+    border: 2px solid;
+    padding: 12px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 24px;
+    margin-right: 24px;
+    
+}
+
+
+#column-2 a {
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(12, 146, 146);
+    color: white;
+    padding: 15px;
+    border-radius: 48px; 
+    border: 12px solid;
+    text-align: center;   
+
 }
