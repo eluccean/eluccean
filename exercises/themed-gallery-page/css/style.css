@@ -11,6 +11,7 @@ body {
     max-width: 800px;
     margin: 48px auto;
     text-align: center;
+    border: 10px solid #e7c60a;
 }
 
 .basic-grid-gallery {
