@@ -73,7 +73,88 @@ position: relative;
 #mimi {
     display: flex;
     justify-content: center;
+    margin-top: 24px;
 }
+
+#mimi img {
+    width: 50%;
+}
+
+.aboutme h1 {
+    text-align: center;
+    color: rgb(255, 105, 130);
+    font-size: 70px;
+}
+
+.aboutme {
+    text-align: center;
+    margin: 50px;
+    padding: 24px;
+    background-image: url(../images/background1.jpeg);
+}
+
+.aboutme p {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 24px 700px 700px 700px;
+    padding: 24px;
+    background-color: rgb(246, 234, 254);
+}
+
+.aboutmemars  h1 {
+    text-align: center;
+    color: green;
+    font-size: 70px;
+}
+
+.aboutmemars {
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #a5e2d0;
+}
+
+.aboutmemars p {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 24px 700px 700px 700px;
+    padding: 24px;
+    background-color: #c0e7ac;
+}
+
+.aboutmepink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(253, 211, 213);
+}
+
+.aboutmepink p {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 24px 700px 700px 700px;
+    padding: 24px;
+    background-color: rgb(246, 246, 246);
+}
+
+.aboutmepink h1 {
+    text-align: center;
+    color: rgb(255, 105, 130);
+    font-size: 70px;
+}
+
+#pink img {
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
 
 
 
