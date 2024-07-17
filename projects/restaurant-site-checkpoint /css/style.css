@@ -20,6 +20,7 @@ body {
 }
 
 #navbar a {
+    font-family: CalligraphyFLF;
     text-decoration: none;
     color: white;
     padding: 24px;
@@ -32,6 +33,7 @@ body {
     font-size: 36px;
     padding-top: 13px;
     padding-bottom: 12px;
+    font-family: CalligraphyFLF;
 }
 
 #navbar a:hover {
