@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(243, 243, 110);
+}
+
+.center-column {
+    background-color: rgb(20, 20, 142);
+    width: 50%;
+    min-width: 500px;
+    margin: 75px auto;
+    text-align: center;
+    padding: 24px;
+    height: 900px;
+    border: double brown 15px;
+}
+
+.center-column p {
+    color: white;
+    font-size: 20px;
+    margin: 35px 35px 35px 35px;
+}
+
+.center-column h1 {
+    color: white;
+    background-color: brown;
+}
+
+.center-column h4 {
+    color: white;
+}
+
+.center-column h3 {
+    color: white;
+    margin-top: auto;
+}
+
+.center-column img {
+    margin: 24px;
+    border: dotted skyblue;
+}
+
+.center-column h2 {
+    color: white;
+}
+
+.center-column a {
+    text-decoration: none;
+    color: silver;
+    margin: 25px;
+    background-color: brown;
+    padding: 24px;
+    border: dotted skyblue;
+}
