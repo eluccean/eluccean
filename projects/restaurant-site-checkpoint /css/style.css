@@ -69,7 +69,8 @@ position: relative;
 
 .big-text-column 
 .img-column {
-    width: 50%;
+    width:50%;
+    margin: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,3 +128,157 @@ position: relative;
     transition: 
         opacity 0.5s;
 }
+#card5 {
+    position: relative;
+}
+
+
+#card5 .card-content {
+    position: absolute;
+    background-color: #fad3ac;
+    border: 3px solid black;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #00000033;
+    left: 0px;
+    margin: 0px 24px;
+    padding: 24px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+
+#card5:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+#cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card {
+    flex: 300px;
+    border: 3px solid #fad3ac;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#card5 h2 {
+    color: #fad3ac;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    display: block;
+    padding: 12px;
+    margin-top: 36px;
+}
+
+#menu-food-iteams {
+    display: flex;
+}
+
+#sidebar-content {
+    background-color: #fad3ac;
+    width: 250px;
+    border: double 24px white;
+    padding: 24px;
+}
+
+#sidebar-content h2 {
+    text-align: center;
+}
+
+#food-gallery {
+    background-color: #fad3ac;
+    flex: 1;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 24px;
+    text-align: center;
+    border: double 24px white;
+}
+
+#food-gallery img {
+    max-width: 330px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#layout {
+    width: 500px;
+    margin: 0px auto;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+header p {
+    font-size: 14px;
+}
+
+form {
+    background-color: #fad3ac;
+    padding: 36px;
+    border: solid white;
+    border-radius: 2px;
+}
+
+form div label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    border: solid white;
+    margin-bottom: 16px;
+}
+
+textarea {
+    font-family: sans-serif;
+}
+
+input[type=submit] {
+    width: auto;
+    background-color: #d56b45;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    min-width: 75px;
+}
+
+input:not(:focus):not(:placeholder-shown):invalid {
+    background-color: #d56b45;
+    border: 2px solid red;
+}
+
+#about-us {
+    text-align: center;
+    color: #fad3ac;
+    padding: 24px;
+    margin: 200px;
+}
+
+
+
+

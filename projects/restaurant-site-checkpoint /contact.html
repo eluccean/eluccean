@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="navbar">
+            <a id="logo" href="index.html">Palette & Plate gallery</a>
+            <div class="dropdown-contaner">
+                <a href="#">Location</a>
+                <div class="dropdown-menu">
+                    <a href="#">Miami</a>
+                    <a href="#">Orlando</a>
+                    <a href="#">Hollywood</a>
+                    <a href="#">Canada</a>
+                </div>
+            </div>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="menu.html">Menu</a>
+        </div>
+        <div id="layout">
+            <header>
+                    <h1>Contact us</h1>
+                    <p>
+                        Got a question?
+                        We'd love to hear from you.
+                        Send us a message and we'll
+                        respond as soon as possible.
+                    </p>
+            </header>
+            <main>
+
+                <form 
+                      method="post"
+                      action=
+                      "https://getform.io/f/
+                      599c2b13-fd57-44e4-95a1-2c722b05c5e8">
+                      <div>
+                        <label for="services_id">
+                            what can we help you with?
+                        </label>
+                        <select id="services_id" name="service_section">
+                            <option 
+                                id="default_option"
+                                value="none"
+                                disabled
+                                selected
+                                >
+                                Select what we can help you with
+                            </option>
+                            <option value="seats">
+                                    seates
+                            </option>
+                            <option value="index">
+                                    Reserve
+                            </option>
+                        </select>
+                      </div>
+                      <div>
+                        <label for="name_id">Name</label>
+                        <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required
+                        minlength="2"
+                        placeholder="E.g john Smith"
+                        >
+                      </div>
+                      <div>
+                        <label for="email_id">Email</label>
+                        <input
+                            type="email"
+                            id="email_id"
+                            name="email"
+                            required
+                            placeholder="E.g jane.doe@gmail.com"
+                            >
+                      </div>
+                      <div>
+                        <label for="message_id">Message</label>
+                        <textarea
+                        id="message"
+                        name="message"
+                        placeholder="I would like you to..."></textarea>
+                      </div>
+                      <div>
+                        <input type="submit" value="send">
+                      </div>
+                </form>
+
+                                
+
+
+
+
+        
+    </body>
+</html>
